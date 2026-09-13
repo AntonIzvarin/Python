@@ -1,4 +1,2 @@
-first_name = input("Введите ваше имя")
+first_name = input("Введите ваше имя", "Введите вашу фамилию")
 last_name = input("Введите вашу фамилию")
-print(first_name)
-print(last_name)
