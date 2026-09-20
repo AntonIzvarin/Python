@@ -1,6 +1,0 @@
-.idea/
-.vscode/
-*.png
-.pytest_cache/
-__pycache__/
-.venv/
