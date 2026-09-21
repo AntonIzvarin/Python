@@ -8,7 +8,8 @@ def test_form():
     # 1. Инициализируем драйвер
     driver = webdriver.Safari()
     driver.maximize_window()
-    driver.get("https://bonigarcia.dev")
+    driver.get(
+        " https://bonigarcia.dev/selenium-webdriver-java/data-types.html")
 
     # Создаем объект явного ожидания на 10 секунд
     wait = WebDriverWait(driver, 10)

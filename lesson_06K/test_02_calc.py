@@ -8,7 +8,8 @@ def test_slow_calculator():
     # 1. Открываем страницу строго в Google Chrome
     driver = webdriver.Chrome()
     driver.maximize_window()
-    driver.get("https://bonigarcia.dev")
+    driver.get(
+        "https://bonigarcia.dev/selenium-webdriver-java/slow-calculator.html")
 
     # 2. Находим поле ввода задержки по указанному локатору #delay
     delay_input = driver.find_element(By.CSS_SELECTOR, "#delay")
